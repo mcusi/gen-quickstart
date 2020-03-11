@@ -33,7 +33,7 @@ If on Mac, run the Docker application, and make sure that you see the Docker wha
 
 Next, clone this Github repository using https and enter that directory:
 
-    $ git clone https://github.com/probcomp/gen-quickstart.git
+    $ git clone https://github.com/mcusi/gen-quickstart.git
     $ cd gen-quickstart
     
 Next, build the image using the following command:
@@ -44,7 +44,7 @@ Then run the image using:
 
     $ docker run -it --name gen -p 8080:8080 -p 8090:8090 -p 8091:8091 -p 8092:8092 gen:v0
 
-Open `localhost:8080` in your browser and open the 'Gen Quick Start.ipynb' notebook.
+Open `localhost:8080` in your browser and open the 'Introduction to Modeling in Gen.ipynb' notebook in the `tutorials` folder.
 
 All the changes made to the notebooks will be saved in your docker container.
 
@@ -121,4 +121,4 @@ Below is a brief documentation of the steps taken in the Dockerfile.
 
 ## Running the Notebooks
 
-Start by opening the 'Gen Quick Start.ipynb' notebook, which contains links to the other notebooks in the intended order.
+Start by opening the 'tutorials/Introduction to Modeling in Gen.ipynb' notebook, which contains links to the other notebooks in the intended order.
