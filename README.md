@@ -1,5 +1,7 @@
 # Gen Quick Start
 
+**A fork of the probcomp gen quickstart tutorials for Computational Audition Lab Meeting, 2020/03/11; a few of the tutorials are shortened, got rid of the notebooks we won't be looking at to keep things simple, & added an additional perception example. Please check the original repository for their complete (and very good) tutorials!**
+
 This repository contains Jupyter notebooks that contain tutorials on specific features and/or applications of Gen.
 The notebooks walk you through programs that use Gen.
 Some notebooks also include exercises that expect you to write code or fill in written responses.
