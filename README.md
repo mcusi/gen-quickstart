@@ -119,6 +119,3 @@ Below is a brief documentation of the steps taken in the Dockerfile.
                         --NotebookApp.iopub_data_rate_limit=-1
     ```
 
-## Running the Notebooks
-
-Start by opening the 'tutorials/Introduction to Modeling in Gen.ipynb' notebook, which contains links to the other notebooks in the intended order.
