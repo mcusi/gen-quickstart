@@ -25,6 +25,7 @@ ADD             . /gen-quickstart
 ENV             JULIA_PROJECT=/gen-quickstart
 
 RUN             . /venv/bin/activate && julia -e 'using Pkg; Pkg.build()'
+RUN             . /venv/bin/activate && julia -e 'using Pkg; Pkg.add("FFTW")'
 RUN             . /venv/bin/activate && julia -e 'using Pkg; Pkg.API.precompile()'
 
 WORKDIR         /gen-quickstart
